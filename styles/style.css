@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto" ;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+#div_form {
+    flex-grow: 1;
+    background-color: aquamarine;
+}
+
+#div_display {
+    background-color: khaki;
+    flex-grow: 14;
+}
